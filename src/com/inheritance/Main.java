@@ -19,6 +19,8 @@ public class Main {
 		
 		exchangeStudent.setFirstName("Ann");
 		exchangeStudent.setPartnerUniversity("ABC univesity");
+		exchangeStudent.setDob(LocalDate.of(1998, Month.AUGUST, 15));
+		System.out.println(exchangeStudent.ageYears());
 	}
 
 }

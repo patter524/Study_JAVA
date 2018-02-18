@@ -41,5 +41,13 @@ public class MemberCard {
 	public static void main(String[] args) {
 
 	}
+	
+	public  float discount(float amount) {
+		if(amount > 1000f) {
+			return amount * .02f;
+		}else {
+			return 0f;
+		}
+	}
 
 }

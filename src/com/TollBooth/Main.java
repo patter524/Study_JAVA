@@ -14,8 +14,8 @@ public class Main {
 		Sedan sedan = new Sedan();
 		System.out.println(sedan.cashRate());
 
-		Vehicle vehicle = new Sedan(); // using an interface as a type // “¡“√∂‡√’¬°„™È‰¥È // instance vehicle
-										// ∂Ÿ° √È“ß¡“®“° Class Sedan ´÷Ëß¡’°“√ implement Vehicle
+		Vehicle vehicle = new Sedan(); // using an interface as a type //‡∏™‡∏≤‡∏°‡∏≤‡∏£‡∏ñ‡πÄ‡∏£‡∏µ‡∏¢‡∏Å‡πÉ‡∏ä‡πâ‡πÑ‡∏î‡πâ // instance vehicle
+										// ‡∏ñ‡∏π‡∏Å‡∏™‡∏£‡πâ‡∏≤‡∏á‡∏°‡∏≤‡∏à‡∏≤‡∏Å Class Sedan ‡∏ã‡∏∂‡πà‡∏á‡∏°‡∏µ‡∏Å‡∏≤‡∏£ implement Vehicle
 		System.out.println(vehicle.ePassRate());
 
 	}
@@ -51,7 +51,7 @@ public class Main {
 	}
 	
 	public static void demo3() {
-		List<String> coffees = new ArrayList<String>();// ¢ÈÕ¥’¢Õß°“√ „™È Interface ‡¡◊ËÕ«—ππ÷ß‡√“Õ¬“°‡ª≈’Ë¬π ™π‘¥¢Õß¢ÈÕ¡Ÿ≈°Á “¡“√∂‡ª≈’Ë¬π‰¥È  Õ¬Ë“ß‡™Ëπ ®“° ArrayList >>>> LinkedList ‰¥È ‡æ√“– °Á¡’°“√ implement interface List ‰«È ‡À¡◊Õπ°—π
+		List<String> coffees = new ArrayList<String>();// ‡∏Ç‡πâ‡∏≠‡∏î‡∏µ‡∏Ç‡∏≠‡∏á‡∏Å‡∏≤‡∏£ ‡πÉ‡∏ä‡πâ Interface ‡πÄ‡∏°‡∏∑‡πà‡∏≠‡∏ß‡∏±‡∏ô‡∏ô‡∏∂‡∏á‡πÄ‡∏£‡∏≤‡∏≠‡∏¢‡∏≤‡∏Å‡πÄ‡∏õ‡∏•‡∏µ‡πà‡∏¢‡∏ô ‡∏ä‡∏ô‡∏¥‡∏î‡∏Ç‡∏≠‡∏á‡∏Ç‡πâ‡∏≠‡∏°‡∏π‡∏•‡∏Å‡πá‡∏™‡∏≤‡∏°‡∏≤‡∏£‡∏ñ‡πÄ‡∏õ‡∏•‡∏µ‡πà‡∏¢‡∏ô‡πÑ‡∏î‡πâ  ‡∏≠‡∏¢‡πà‡∏≤‡∏á‡πÄ‡∏ä‡πà‡∏ô ‡∏à‡∏≤‡∏Å ArrayList >>>> LinkedList ‡πÑ‡∏î‡πâ ‡πÄ‡∏û‡∏£‡∏≤‡∏∞ ‡∏Å‡πá‡∏°‡∏µ‡∏Å‡∏≤‡∏£ implement interface List ‡πÑ‡∏ß‡πâ ‡πÄ‡∏´‡∏°‡∏∑‡∏≠‡∏ô‡∏Å‡∏±‡∏ô
 		List<String> coffees1 = new LinkedList<String>();
 	}
 

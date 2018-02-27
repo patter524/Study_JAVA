@@ -7,8 +7,8 @@ public class GoldCard extends MemberCard {
 		// TODO Auto-generated method stub
 		return 2f;
 	}
-	// annotation ��� ��ǹ˹�觢ͧ�鴷��͡��������´�ҧ���ҧ ���ҧ�蹺͡���������
-	// PlatinumCard �ӡ�� Override method �������� Class MemberCard
+	// annotation คือ ส่วนหนึ่งของโค้ดที่บอกรายละเอียดบางอย่าง อย่างเช่นบอกให้รู้ว่า
+	// PlatinumCard ทำการ Override method ที่อยู่ใน Class MemberCard
 
 	// @Override
 	// public float discount(float amount) {

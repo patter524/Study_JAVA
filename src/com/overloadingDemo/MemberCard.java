@@ -1,6 +1,6 @@
 package com.overloadingDemo;
 
-public abstract class MemberCard { //°“√°”À¡¥„ÀÈ‡ªÁπ abstract class ®– Ëßº≈„ÀÈ‰¡Ë “¡“√∂  √È“ß Instance Object ®“° Class π—ÈπÊ‰¥È ‚¥¬µ√ß
+public abstract class MemberCard { //‡∏Å‡∏≤‡∏£‡∏Å‡∏≥‡∏´‡∏°‡∏î‡πÉ‡∏´‡πâ‡πÄ‡∏õ‡πá‡∏ô abstract class ‡∏à‡∏∞‡∏™‡πà‡∏á‡∏ú‡∏•‡πÉ‡∏´‡πâ‡πÑ‡∏°‡πà‡∏™‡∏≤‡∏°‡∏≤‡∏£‡∏ñ ‡∏™‡∏£‡πâ‡∏≤‡∏á Instance Object ‡∏à‡∏≤‡∏Å Class ‡∏ô‡∏±‡πâ‡∏ô‡πÜ‡πÑ‡∏î‡πâ ‡πÇ‡∏î‡∏¢‡∏ï‡∏£‡∏á
 	private String firstName, lastName;
 
 	@Override
@@ -53,12 +53,12 @@ public abstract class MemberCard { //°“√°”À¡¥„ÀÈ‡ªÁπ abstract class ®– Ëßº≈„ÀÈ‰¡
 	}
 	
 	//must implement this method in subclass
-	//°“√∑’Ë®–¡’ abstract method „π Class ‰¥È Class π—ÈπµÈÕß‡ªÁπ abstract classs ¥È«¬
-	public abstract float rewardXPoint(); // abstract method ®–‰¡Ë¡’°“√ imlement °Á§◊Õ‰¡Ë¡’ {}
+	//‡∏Å‡∏≤‡∏£‡∏ó‡∏µ‡πà‡∏à‡∏∞‡∏°‡∏µ abstract method ‡πÉ‡∏ô Class ‡πÑ‡∏î‡πâ Class ‡∏ô‡∏±‡πâ‡∏ô‡∏ï‡πâ‡∏≠‡∏á‡πÄ‡∏õ‡πá‡∏ô abstract classs ‡∏î‡πâ‡∏ß‡∏¢
+	public abstract float rewardXPoint(); // abstract method ‡∏à‡∏∞‡πÑ‡∏°‡πà‡∏°‡∏µ‡∏Å‡∏≤‡∏£ imlement ‡∏Å‡πá‡∏Ñ‡∏∑‡∏≠‡πÑ‡∏°‡πà‡∏°‡∏µ {}
 	
 	
 	// subclass can't override this method
-	public final int calcPoint(float amount) {// √È“ß method ∑’Ë‰¡ËÕπÿ≠“µ‘„ÀÈ class ≈Ÿ° Overide ‰¥È
+	public final int calcPoint(float amount) {//‡∏™‡∏£‡πâ‡∏≤‡∏á method ‡∏ó‡∏µ‡πà‡πÑ‡∏°‡πà‡∏≠‡∏ô‡∏∏‡∏ç‡∏≤‡∏ï‡∏¥‡πÉ‡∏´‡πâ class ‡∏•‡∏π‡∏Å Overide ‡πÑ‡∏î‡πâ
 		return (int)((amount/ 20)* rewardXPoint());
 	}
 

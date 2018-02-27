@@ -22,7 +22,7 @@ public class Main {
 			System.out.printf("%s => %s\n",key,value);
 		}
 		
-		map.put("th", "Siam"); // Replace Key ที่มีอยู่อยู่ก่อนหน้า
+		map.put("th", "Siam"); // Replace Key เธ—เธตเนเธกเธตเธญเธขเธนเนเธญเธขเธนเนเธเนเธญเธเธซเธเนเธฒ
 		
 		for(Map.Entry<String,String>item : map.entrySet()) {
 			String key = item.getKey();

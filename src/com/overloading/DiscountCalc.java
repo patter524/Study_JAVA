@@ -1,3 +1,4 @@
+
 package com.overloading;
 
 public class DiscountCalc {
@@ -11,7 +12,7 @@ public class DiscountCalc {
 
 	public static float discount(float amount, String customerType) {
 		float pctDiscount = 0.0f;
-		switch (customerType.toUpperCase()) { // .toUpperCase ‰¡Ë “¡“√∂„™È‰¥È°—∫  java sdk ∑’ËµË”°«Ë“ 1.8  **∂È“µË”°«Ë“π’È ®–„™È‰¥È·§Ë byte character ·≈– int
+		switch (customerType.toUpperCase()) { // .toUpperCase ‡πÑ‡∏°‡πà‡∏™‡∏≤‡∏°‡∏≤‡∏£‡∏ñ‡πÉ‡∏ä‡πâ‡πÑ‡∏î‡πâ‡∏Å‡∏±‡∏ö  java sdk ‡∏ó‡∏µ‡πà‡∏ï‡πà‡∏≥‡∏Å‡∏ß‡πà‡∏≤ 1.8  **‡∏ñ‡πâ‡∏≤‡∏ï‡πà‡∏≥‡∏Å‡∏ß‡πà‡∏≤‡∏ô‡∏µ‡πâ ‡∏à‡∏∞‡πÉ‡∏ä‡πâ‡πÑ‡∏î‡πâ‡πÅ‡∏Ñ‡πà byte character ‡πÅ‡∏•‡∏∞ int
 		case "VIP":
 			pctDiscount = 0.2f;
 			break;

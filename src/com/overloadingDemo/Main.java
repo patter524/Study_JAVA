@@ -10,9 +10,9 @@ public class Main {
 	public static void demoCard() {
 		PlatinumCard platinumCard = new PlatinumCard();
 		System.out.println("Platinum:"+platinumCard.discount(1000f));
-		System.out.println("ä´éá¤Ğ¹á¹¹ÊĞÊÁ·Ñé§ÊÔé¹  "+platinumCard.calcPoint(1000f));
+		System.out.println("à¹„à¸”à¹‰à¹à¸„à¸°à¸™à¹à¸™à¸™à¸ªà¸°à¸ªà¸¡à¸—à¸±à¹‰à¸‡à¸ªà¸´à¹‰à¸™  "+platinumCard.calcPoint(1000f));
 		GoldCard goldCard = new GoldCard();
-		System.out.println("Gold:"+goldCard.discount(2000f)); //à¹×èÍ§¨Ò¡ÇèÒã¹ Class Gold äÁèä´éÁÕ¡ÒÃ Overide method ·ÓãËéàÁ×èÍàÃÕÂ¡ãªé method ¹Õé¡ç¨ĞÁÒàÃÕÂ¡ãªé Method ã¹ Parent C
+		System.out.println("Gold:"+goldCard.discount(2000f)); //à¹€à¸™à¸·à¹ˆà¸­à¸‡à¸ˆà¸²à¸à¸§à¹ˆà¸²à¹ƒà¸™ Class Gold à¹„à¸¡à¹ˆà¹„à¸”à¹‰à¸¡à¸µà¸à¸²à¸£ Overide method à¸—à¸³à¹ƒà¸«à¹‰à¹€à¸¡à¸·à¹ˆà¸­à¹€à¸£à¸µà¸¢à¸à¹ƒà¸Šà¹‰ method à¸™à¸µà¹‰à¸à¹‡à¸ˆà¸°à¸¡à¸²à¹€à¸£à¸µà¸¢à¸à¹ƒà¸Šà¹‰ Method à¹ƒà¸™ Parent C
 		SilverCard silverCard = new SilverCard();
 		System.out.println("Silver:"+silverCard.discount(3000f));
 	}
